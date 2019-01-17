@@ -95,3 +95,5 @@ G:\Kailani\CODE\Books\Books\obj\Release\Books.csproj.CoreCompileInputs.cache
 G:\Kailani\CODE\Books\Books\obj\Release\Books.csproj.CopyComplete
 G:\Kailani\CODE\Books\Books\obj\Release\Books.dll
 G:\Kailani\CODE\Books\Books\obj\Release\Books.pdb
+G:\Kailani\CODE\Books\Books\bin\Swashbuckle.Core.dll
+G:\Kailani\CODE\Books\Books\bin\WebActivatorEx.dll

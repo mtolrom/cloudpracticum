@@ -32,7 +32,7 @@ namespace Books
 
                 book1.Id = "1";
                 book1.Author = "Mekone Tolrom";
-                book1.Language = "English";
+                book1.Language = "French";
                 book1.Text = "Earn a role-based certification that shows you are keeping pace "
                     + "with today’s technical roles and requirements. Skill up, prove your "
                     + "expertise to employers and peers, and get the recognition and "
@@ -42,24 +42,24 @@ namespace Books
                 book1.Sounds = sounds;
 
                 book2.Id = "2";
-                book2.Author = "Mekone Tolrom";
-                book2.Language = "English";
+                book2.Author = "Maria Conte";
+                book2.Language = "Arabic";
                 book2.Text = "Earn a role-based certification that shows you are keeping pace "
                     + "with today’s technical roles and requirements. Skill up, prove your "
                     + "expertise to employers and peers, and get the recognition and "
                     + "opportunities you’ve earned.";
-                book2.Title = "Snowwhite";
+                book2.Title = "Breaking Bad";
                 book2.Images = images;
                 book2.Sounds = sounds;
 
                 book3.Id = "3";
-                book3.Author = "Mekone Tolrom";
+                book3.Author = "Gerlad Smith";
                 book3.Language = "English";
                 book3.Text = "Earn a role-based certification that shows you are keeping pace "
                     + "with today’s technical roles and requirements. Skill up, prove your "
                     + "expertise to employers and peers, and get the recognition and "
                     + "opportunities you’ve earned.";
-                book3.Title = "Snowwhite";
+                book3.Title = "Home Alone";
                 book3.Images = images;
                 book3.Sounds = sounds;
 
