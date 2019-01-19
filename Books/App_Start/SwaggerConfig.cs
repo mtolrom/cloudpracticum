@@ -61,22 +61,23 @@ namespace Books
                         //c.BasicAuth("basic")
                         //    .Description("Basic HTTP Authentication");
                         //
-						// NOTE: You must also configure 'EnableApiKeySupport' below in the SwaggerUI section
+                        // NOTE: You must also configure 'EnableApiKeySupport' below in the SwaggerUI section
                         //c.ApiKey("apiKey")
                         //    .Description("API Key Authentication")
                         //    .Name("apiKey")
                         //    .In("header");
                         //
-                        //c.OAuth2("oauth2")
-                        //    .Description("OAuth2 Implicit Grant")
-                        //    .Flow("implicit")
-                        //    .AuthorizationUrl("http://petstore.swagger.wordnik.com/api/oauth/dialog")
-                        //    //.TokenUrl("https://tempuri.org/token")
-                        //    .Scopes(scopes =>
-                        //    {
-                        //        scopes.Add("read", "Read access to protected resources");
-                        //        scopes.Add("write", "Write access to protected resources");
-                        //    });
+                        c.OAuth2("oauth2")
+                            .Description("OAuth2 Implicit Grant")
+                            .Flow("implicit")
+                            //.AuthorizationUrl("http://petstore.swagger.wordnik.com/api/oauth/dialog")
+                            .AuthorizationUrl("https://cloudpracticum.portal.azure-api.net/docs/services/appoauth/console/oauth2/authorizationcode/callback")
+                            //.TokenUrl("https://tempuri.org/token")
+                            .Scopes(scopes =>
+                            {
+                                scopes.Add("read", "Read access to protected resources");
+                                scopes.Add("write", "Write access to protected resources");
+                            });
 
                         // Set this flag to omit descriptions for any actions decorated with the Obsolete attribute
                         //c.IgnoreObsoleteActions();
@@ -248,7 +249,7 @@ namespace Books
                         // If your API supports ApiKey, you can override the default values.
                         // "apiKeyIn" can either be "query" or "header"
                         //
-                        //c.EnableApiKeySupport("apiKey", "header");
+                        c.EnableApiKeySupport("apiKey", "header");
                     });
         }
     }
